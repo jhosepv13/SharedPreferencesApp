@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
         loginPanel.setVisibility(View.GONE);
         progressBar.setVisibility(View.VISIBLE);
 
-        String username = usernameinput.getText().toString();
-        String password = passwordinput.getText().toString();
+        String username = usernameInput.getText().toString();
+        String password = passwordInput.getText().toString();
 
         if(username.isEmpty() || password.isEmpty()){
             Toast.makeText(this, "Debes completar todos los espacios", Toast.LENGTH_SHORT).show();
